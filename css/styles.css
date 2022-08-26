@@ -1,0 +1,20 @@
+.block {
+  background-color: green;
+  width: 100%;
+}
+
+.carte {
+  background-color: #fff;
+}
+.carte:hover {
+  width: 870px;
+}
+.carte:hover .details {
+  height: 70px;
+}
+.carte.block {
+  background-color: red;
+}
+.carte .details {
+  height: auto;
+}/*# sourceMappingURL=styles.css.map */
