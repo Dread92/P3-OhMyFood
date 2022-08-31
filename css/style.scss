@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  font-family: "shrikhand", sans-serif;
+  text-align: center;
+  box-shadow: 0px 3px 3px 1px rgb(201, 201, 201);
+  padding-bottom: 0.5%;
+  height: 55px;
+  position: relative;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  background-color: #F3F3F3;
+  text-align: center;
+  padding: 1%;
+}
+
+.location h2 {
+  font-weight: 500;
+  font-size: 20px;
+}
+
+.mapdot {
+  font-size: x-large;
+}
+
+.explorer {
+  text-align: center;
+  background-image: linear-gradient(to top, #F3F3F3, white);
+  height: auto;
+}
+
+.explorer h2 {
+  margin-top: 10%;
+  font-size: 25px;
+}
+
+.explorer p {
+  font-size: 20px;
+  margin-bottom: 10%;
+}
+
+.explorer button {
+  padding: 20px 20px;
+  border: none;
+  border-radius: 40px;
+  box-shadow: 1px 8px 7px 0px #C5C5C5;
+  font-weight: 300;
+  color: white;
+  font-size: 20px;
+  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(225, 121, 218, 0.9));
+  transition: 200ms;
+}
+
+.explorer button:hover {
+  transform: scale(1.1);
+  transition: 200ms;
+  opacity: 0.9;
+}
+
+/*# sourceMappingURL=style.css.map */
