@@ -37,8 +37,46 @@ header
   font-size: 20px;
 }
 
-
 .mapdot
 {
   font-size: x-large;
+}
+
+
+
+
+
+.explorer
+{
+text-align: center;
+background-image: linear-gradient(to top, #F3F3F3, white);
+height: 250px;
+}
+
+.explorer h2{
+  margin-top: 10%;
+  font-size:25px;
+}
+
+.explorer p{
+  font-size: 20px;
+}
+
+.explorer button
+{
+  padding:20px 40px;
+  border:none;
+  border-radius:40px;
+  box-shadow: 1px 8px 7px 0px #C5C5C5;
+  font-weight: 300;
+  color:white;
+  font-size:20px;
+  background-image: linear-gradient(to top, rgba(147,86,220,0.9), rgba(225,121,218,0.9));
+  transition: 200ms;
+}
+
+.explorer button:hover{
+  transform: scale(1.1);
+  transition: 200ms;
+  opacity: 0.9;
 }
