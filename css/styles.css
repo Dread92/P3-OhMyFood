@@ -1,20 +1,20 @@
-.block {
-  background-color: green;
-  width: 100%;
+*
+{
+  box-sizing: border-box;
+   
 }
 
-.carte {
-  background-color: #fff;
+body{
+  margin:0px;
 }
-.carte:hover {
-  width: 870px;
+
+
+header
+{
+  font-family: 'shrikhand', sans-serif;
+  text-align: center;
+  box-shadow: 0px 3px 3px 1px rgb(201, 201, 201);
+  padding-bottom: 0.5%;
+  height:55px
 }
-.carte:hover .details {
-  height: 70px;
-}
-.carte.block {
-  background-color: red;
-}
-.carte .details {
-  height: auto;
-}/*# sourceMappingURL=styles.css.map */
+
