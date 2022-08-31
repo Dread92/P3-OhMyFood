@@ -1,0 +1,22 @@
+{
+  "name": "projet-3-ohmyfood",
+  "version": "1.0.0",
+  "description": "Projet no 3 du parcours Développeur Web de Openclassrooms",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dread92/Projet-3-OhMyFood.git"
+  },
+  "author": "Guillaume Blanc",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dread92/Projet-3-OhMyFood/issues"
+  },
+  "homepage": "https://github.com/Dread92/Projet-3-OhMyFood#readme",
+  "devDependencies": {
+    "sass": "^1.54.7"
+  }
+}
