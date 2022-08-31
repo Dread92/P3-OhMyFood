@@ -1,0 +1,22 @@
+@use "../mixins/box_shadow.scss";
+@use "../mixins/hover_scale.scss";
+
+.functioning{
+    & ol{
+        display: flex;
+        flex-wrap:wrap;
+        flex-direction: column;
+        gap:15px;
+    }
+    & li{
+        background-color: #F6F6F6;
+        padding: 10px 20px;
+        flex-grow:1;
+        border-radius:40px;
+        transition: 200ms;
+        @include box_shadow.box_shadow;
+       &:hover{
+        @include hover_scale.hover_scale;
+       }
+    }
+}
