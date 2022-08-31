@@ -25,32 +25,26 @@ header {
   text-align: center;
   padding: 1%;
 }
-
 .location h2 {
   font-weight: 500;
   font-size: 20px;
 }
-
-.mapdot {
+.location .mapdot {
   font-size: x-large;
 }
 
 .explorer {
   text-align: center;
   background-image: linear-gradient(to top, #F3F3F3, white);
-  height: auto;
 }
-
 .explorer h2 {
   margin-top: 10%;
   font-size: 25px;
 }
-
 .explorer p {
   font-size: 20px;
   margin-bottom: 10%;
 }
-
 .explorer button {
   padding: 20px 20px;
   border: none;
@@ -61,13 +55,12 @@ header {
   font-size: 20px;
   background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(225, 121, 218, 0.9));
   transition: 200ms;
+  margin-bottom: 10%;
 }
-
-.explorer button:hover {
+.explorer:hover {
   transform: scale(1.1);
   transition: 200ms;
   opacity: 0.9;
 }
 
 /*# sourceMappingURL=style.css.map */
-
