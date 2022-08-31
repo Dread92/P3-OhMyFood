@@ -1,7 +1,7 @@
 {
   "name": "projet-3-ohmyfood",
   "version": "1.0.0",
-  "description": "Projet no 3 du parcours Développeur Web de Openclassrooms",
+  "description": "Projet no 3 du parcours Développeur Web de Openclassroom",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
