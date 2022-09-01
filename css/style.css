@@ -64,16 +64,19 @@ header {
 }
 
 .functioning ol {
+  list-style-type: none;
   display: flex;
-  flex-wrap: wrap;
   flex-direction: column;
   gap: 15px;
+  cursor: pointer;
 }
 .functioning li {
+  width: 95%;
+  position: relative;
   background-color: #F6F6F6;
-  padding: 10px 20px;
+  padding: 30px 20px;
   flex-grow: 1;
-  border-radius: 40px;
+  border-radius: 25px;
   transition: 200ms;
   box-shadow: 1px 8px 7px 0px #C5C5C5;
 }
@@ -81,6 +84,24 @@ header {
   transform: scale(1.05);
   transition: 200ms;
   opacity: 0.9;
+}
+.functioning li i {
+  margin-right: 25px;
+  color: rgb(117, 117, 117);
+  font-size: 20px;
+  padding-left: 10px;
+}
+.functioning li span {
+  color: white;
+  background-color: rgb(147, 17, 186);
+  display: grid;
+  place-items: center;
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  position: absolute;
+  top: 28px;
+  left: -15px;
 }
 
 /*# sourceMappingURL=style.css.map */
