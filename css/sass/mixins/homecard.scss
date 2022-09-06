@@ -1,6 +1,6 @@
 @mixin homecard_size{
-    border:1px solid black;
+    border:1px 1px 0 0 solid black;
     height:200px;
     background-size: cover;
-    border-radius: 20px;
+    border-radius: 20px 20px 0 0;
 }

@@ -4,10 +4,33 @@
 .restaurant{
     background-color: #F6F6F6;
     position: relative;
+    gap: 20px;
     & h2 {
         margin-left:24px;
+        padding-top:50px;
+        font-weight: 900;
     }
 }
+
+.cards__text{
+
+    position:relative;
+
+   
+    h3,p {
+      margin: 8px;
+      
+    }
+    i{
+        font-size:25px;
+        position:absolute;
+        top:50%;
+        right:5%;
+        transform: translateY(-50%);
+    }  
+ }
+
+
 .badge{
     position: absolute;
     height:30px;
@@ -23,6 +46,9 @@
     color:rgb(33, 105, 7);
     opacity: 0.9;
    }
+
+
+
 
     .cards{
         position: relative;
@@ -47,7 +73,8 @@
             @include homecard.homecard_size;
             background-image: url(../../../assets/restaurant4.jpg);
         }
-      
+       
+
     }
    
    

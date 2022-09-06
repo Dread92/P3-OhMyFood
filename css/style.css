@@ -3,12 +3,21 @@
 }
 
 body {
-  margin: 0px;
+  margin: 0;
   font-family: "Roboto", sans-serif;
 }
 
 main {
   margin: 0 auto;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+h3, p {
+  margin: 0;
 }
 
 header {
@@ -120,9 +129,26 @@ header {
 .restaurant {
   background-color: #F6F6F6;
   position: relative;
+  gap: 20px;
 }
 .restaurant h2 {
   margin-left: 24px;
+  padding-top: 50px;
+  font-weight: 900;
+}
+
+.cards__text {
+  position: relative;
+}
+.cards__text h3, .cards__text p {
+  margin: 8px;
+}
+.cards__text i {
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
 }
 
 .badge {
@@ -150,32 +176,49 @@ header {
   margin-right: 2.5%;
 }
 .cards__img-1 {
-  border: 1px solid black;
+  border: 1px 1px 0 0 solid black;
   height: 200px;
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   background-image: url(../../../assets/restaurant1.jpg);
 }
 .cards__img-2 {
-  border: 1px solid black;
+  border: 1px 1px 0 0 solid black;
   height: 200px;
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   background-image: url(../../../assets/restaurant2.jpg);
 }
 .cards__img-3 {
-  border: 1px solid black;
+  border: 1px 1px 0 0 solid black;
   height: 200px;
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   background-image: url(../../../assets/restaurant3.jpg);
 }
 .cards__img-4 {
-  border: 1px solid black;
+  border: 1px 1px 0 0 solid black;
   height: 200px;
   background-size: cover;
-  border-radius: 20px;
+  border-radius: 20px 20px 0 0;
   background-image: url(../../../assets/restaurant4.jpg);
+}
+
+footer {
+  background-color: rgb(36, 34, 34);
+  padding: 10px;
+  color: white;
+}
+footer h2 {
+  font-family: "Shrikhand", "sans-serif";
+  font-weight: 500;
+  padding: 0px 8px;
+}
+footer p {
+  padding: 8px;
+}
+footer i {
+  padding-right: 10%;
 }
 
 /*# sourceMappingURL=style.css.map */
