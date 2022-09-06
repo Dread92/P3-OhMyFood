@@ -99,6 +99,7 @@ header {
   color: rgb(117, 117, 117);
   font-size: 20px;
   padding-left: 10px;
+  display: inline-block;
 }
 .functioning li i:hover {
   color: rgb(147, 17, 186);
@@ -118,12 +119,30 @@ header {
 
 .restaurant {
   background-color: #F6F6F6;
+  position: relative;
 }
 .restaurant h2 {
   margin-left: 24px;
 }
 
+.badge {
+  position: absolute;
+  height: 30px;
+  width: 90px;
+  background-color: #99E2D0;
+  display: grid;
+  place-items: center;
+  right: 25px;
+  margin-top: 5%;
+  margin-right: 2%;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(33, 105, 7);
+  opacity: 0.9;
+}
+
 .cards {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 20px;
