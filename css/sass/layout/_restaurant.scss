@@ -54,24 +54,25 @@
         position: relative;
         display: flex;
         flex-direction: column;
-        gap:20px;
-        margin-left:2.5%;
-        margin-right:2.5%;
-        &__img-1{
+        margin-bottom:10%;
+        margin-left:5%;
+        margin-right:5%;
+        border-radius:0px 0px 20px 20px;
+        box-shadow: 2px 14px 29px -6px rgba(0, 0, 0, 0.32);        &__img-1{
         @include homecard.homecard_size;
-        background-image: url(../../../assets/restaurant1.jpg);
+        background-image: url(../../../assets/restaurant-1.jpg);
     }
         &__img-2{
             @include homecard.homecard_size;
-            background-image: url(../../../assets/restaurant2.jpg);
+            background-image: url(../../../assets/restaurant-2.jpg);
         }
         &__img-3{
             @include homecard.homecard_size;
-            background-image: url(../../../assets/restaurant3.jpg);
+            background-image: url(../../../assets/restaurant-3.jpg);
         }
         &__img-4    {
             @include homecard.homecard_size;
-            background-image: url(../../../assets/restaurant4.jpg);
+            background-image: url(../../../assets/restaurant-4.jpg);
         }
        
 
