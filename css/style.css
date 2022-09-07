@@ -99,6 +99,9 @@ header {
   background-color: rgb(234, 204, 237);
   opacity: 0.8;
 }
+.functioning li:hover i {
+  color: rgb(147, 17, 186);
+}
 .functioning li i {
   margin-right: 25px;
   color: rgb(117, 117, 117);
@@ -143,24 +146,8 @@ header {
   font-size: 25px;
   position: absolute;
   top: 50%;
-  right: 5%;
   transform: translateY(-50%);
-}
-
-.badge {
-  position: absolute;
-  height: 30px;
-  width: 90px;
-  background-color: #99E2D0;
-  display: grid;
-  place-items: center;
-  right: 25px;
-  margin-top: 5%;
-  margin-right: 2%;
-  font-weight: bold;
-  text-decoration: none;
-  color: rgb(33, 105, 7);
-  opacity: 0.9;
+  right: 5%;
 }
 
 .cards {
@@ -177,25 +164,38 @@ header {
   height: 200px;
   background-size: cover;
   border-radius: 20px 20px 0 0;
-  background-image: url(../../../assets/restaurant-1.jpg);
+  background-image: url(../assets/restaurant-1.jpg);
 }
 .cards__img-2 {
   height: 200px;
   background-size: cover;
   border-radius: 20px 20px 0 0;
-  background-image: url(../../../assets/restaurant-2.jpg);
+  background-image: url(../assets/restaurant-2.jpg);
 }
 .cards__img-3 {
   height: 200px;
   background-size: cover;
   border-radius: 20px 20px 0 0;
-  background-image: url(../../../assets/restaurant-3.jpg);
+  background-image: url(../assets/restaurant-3.jpg);
 }
 .cards__img-4 {
   height: 200px;
   background-size: cover;
   border-radius: 20px 20px 0 0;
-  background-image: url(../../../assets/restaurant-4.jpg);
+  background-image: url(../assets/restaurant-4.jpg);
+}
+.cards__badge {
+  position: absolute;
+  height: 30px;
+  width: 90px;
+  background-color: #99E2D0;
+  display: grid;
+  place-items: center;
+  right: 25px;
+  top: 20px;
+  font-weight: bold;
+  text-decoration: none;
+  color: rgb(33, 105, 7);
 }
 
 footer {

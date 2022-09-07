@@ -25,27 +25,11 @@
         font-size:25px;
         position:absolute;
         top:50%;
-        right:5%;
         transform: translateY(-50%);
+        right:5%;
     }  
  }
 
-
-.badge{
-    position: absolute;
-    height:30px;
-    width:90px;
-    background-color: colors.$lightgreen;
-    display:grid;
-    place-items:center;
-    right:25px;
-    margin-top:5%;
-    margin-right: 2%;
-    font-weight: bold;
-    text-decoration: none;
-    color:rgb(33, 105, 7);
-    opacity: 0.9;
-   }
 
 
 
@@ -58,23 +42,36 @@
         margin-left:5%;
         margin-right:5%;
         border-radius:0px 0px 20px 20px;
-        box-shadow: 2px 14px 29px -6px rgba(0, 0, 0, 0.32);        &__img-1{
+        box-shadow: 2px 14px 29px -6px rgba(0, 0, 0, 0.32);       
+         &__img-1{
         @include homecard.homecard_size;
-        background-image: url(../../../assets/restaurant-1.jpg);
+        background-image: url(../assets/restaurant-1.jpg);
     }
         &__img-2{
             @include homecard.homecard_size;
-            background-image: url(../../../assets/restaurant-2.jpg);
+            background-image: url(../assets/restaurant-2.jpg);
         }
         &__img-3{
             @include homecard.homecard_size;
-            background-image: url(../../../assets/restaurant-3.jpg);
+            background-image: url(../assets/restaurant-3.jpg);
         }
         &__img-4    {
             @include homecard.homecard_size;
-            background-image: url(../../../assets/restaurant-4.jpg);
+            background-image: url(../assets/restaurant-4.jpg);
         }
-       
+       &__badge{
+        position: absolute;
+        height:30px;
+        width:90px;
+        background-color: colors.$lightgreen;
+        display:grid;
+        place-items:center;
+        right:25px;
+        top:20px;
+        font-weight: bold;
+        text-decoration: none;
+        color:rgb(33, 105, 7);
+       }
 
     }
    
