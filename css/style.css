@@ -215,6 +215,10 @@ footer i {
   padding-right: 5%;
 }
 
+body {
+  background-color: #F6F6F6;
+}
+
 .img_restaurant {
   max-width: 100%;
   max-height: 60%;
@@ -242,13 +246,24 @@ footer i {
 }
 
 .menu__list {
-  display: grid;
-  grid-template-columns: repeat(1fr);
-  background-color: #F6F6F6;
-}
-.menu__list .menu__starter .menu__choice {
   display: flex;
   flex-direction: column;
+  background-color: #F6F6F6;
+}
+.menu__list h3 {
+  margin-left: 15px;
+}
+.menu__list .menu__choice {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  background-color: #fff;
+  border-radius: 15px;
+  margin: 10px;
+  padding: 10px;
+  box-shadow: 4px 4px 6px #aaa;
+  position: relative;
+  cursor: pointer;
 }
 .order {
   display: flex;

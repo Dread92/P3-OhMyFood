@@ -2,6 +2,13 @@
 @use "../mixins/hover_scale.scss";
 @use "../mixins/box_shadow.scss";
 
+body{
+    background-color: #F6F6F6;
+}
+
+
+
+
 .img_restaurant{
     max-width:100%;
     max-height: 60%;
@@ -31,22 +38,38 @@
 }
 
 .menu__list{
-    display: grid;
-    grid-template-columns: repeat(1fr);
+    & h3{
+        margin-left:15px;
+    }
+    display: flex;
+    flex-direction: column;
     background-color: #F6F6F6;
-    .menu__starter{
+    .menu__choice{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        background-color: #fff;
+        border-radius: 15px;
+        margin: 10px;
+        padding: 10px;
+        box-shadow: 4px 4px 6px #aaa;
+        position: relative;
+        cursor: pointer;
+        & h4{
         
-        .menu__choice{
-            display: flex;
-            flex-direction: column;
-            
         }
     }
-    .menu_dish{
+    
+    .menu__starter{
         
     }
+
+    .menu_dish{
+      
+    }
+
     .menu__dessert{
-        
+       
     }
 }
 
