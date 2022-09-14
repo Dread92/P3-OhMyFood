@@ -1,8 +1,10 @@
 header {
     font-family: "shrikhand", sans-serif;
     text-align: center;
-    box-shadow: 0px 3px 3px 1px rgb(201, 201, 201);
     padding-bottom: 0.5%;
     height: 55px;
     position: relative;
+    &.shadow{
+      box-shadow: 0px 3px 3px 1px rgb(201, 201, 201);
+    }
   }
