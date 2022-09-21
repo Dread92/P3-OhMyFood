@@ -156,7 +156,7 @@ footer p {
     }
 
     main{
-        max-width: 1300px;
+        max-width: 1400px;
     }
 
 
@@ -252,11 +252,10 @@ footer p {
      }
  }
  
- .menu-dessert{
-     display: flex;
-     flex-direction: column;
-     width:30%;
-    
+ .menu__dessert{
+    display: flex;
+    flex-direction: column;
+    width:30%;
      & p{
          text-align:start
          

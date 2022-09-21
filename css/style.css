@@ -418,7 +418,7 @@ header .arrow {
     width: 100%;
   }
   main {
-    max-width: 1300px;
+    max-width: 1400px;
   }
   .location {
     padding-top: 50px;
@@ -483,12 +483,12 @@ header .arrow {
   .menu__dish p {
     text-align: start;
   }
-  .menu-dessert {
+  .menu__dessert {
     display: flex;
     flex-direction: column;
     width: 30%;
   }
-  .menu-dessert p {
+  .menu__dessert p {
     text-align: start;
   }
   .footerlist {
