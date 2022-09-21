@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/Dread92/Projet-3-OhMyFood/issues"
   },
-  "homepage": "https://github.com/Dread92/Projet-3-OhMyFood#readme"
+  "homepage": "https://github.com/Dread92/Projet-3-OhMyFood#readme",
+  "dependencies": {
+    "sass": "^1.54.9"
+  }
 }

@@ -1,0 +1,306 @@
+@media screen and (min-width:769px) and (max-width: 992px){
+
+/*home page*/
+
+
+
+.location{
+
+height:50px;
+
+}
+.explorer p {
+margin-bottom: 30px;
+
+}
+
+.explorer h2{
+
+    margin-top:30px;
+}
+.explorer button{
+    margin-bottom:30px;
+}
+
+.functioning{ 
+
+    h2{
+        display: flex;
+        justify-content: center;
+    }
+.list{
+   
+    display: flex;
+    justify-content: center;
+    margin-left:25%;
+    margin-right: 25%;
+    & li{
+        
+       
+        
+    }
+}
+}
+
+.restaurant{
+
+    h2{
+        display: flex;
+        justify-content: center;
+        font-size:30px;
+        padding-bottom:30px;
+    }   
+
+}
+.restaurant__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+
+
+.footerlist{
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+    width:95%;
+}
+footer h2{
+    display: flex;
+    justify-content: center;
+    font-size:35px;
+    padding-left:53px;
+}
+
+
+footer p {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   font-size:18px;
+
+
+}
+
+/* restaurant pages */
+
+.menu__list{
+   display: flex;
+   flex-direction: row;
+  
+
+   & h3{
+   margin-bottom: 10px;
+   }
+    
+   
+}
+
+.menu__starter{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    & p{
+        text-align:start
+        
+    }
+}
+.menu__dish{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    & p{
+        text-align:start
+        
+    }
+}
+
+.menu-dessert{
+    display: flex;
+    flex-direction: column;
+    height:auto;
+    & p{
+        text-align:start
+        
+    }
+}
+
+
+.menu__choice{
+   padding:18px;
+   margin:18px;
+   height:100px;
+   
+}
+
+.order button{
+
+   width:33%;
+}
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width:993px){
+    .img_restaurant{
+      max-height: 500px;
+      width: 100%;
+    }
+
+    main{
+        max-width: 1300px;
+    }
+
+
+    .location{
+        padding-top: 50px;
+        height:25px;
+        
+        }
+        .explorer p {
+        margin-bottom: 30px;
+        
+        }
+        
+        .explorer h2{
+        
+            padding-top:50px;
+        }
+        .explorer button{
+            margin-bottom:30px;
+        }
+
+.functioning{
+    
+    h2{
+        display: flex;
+        justify-content: center;
+        font-size:30px;
+        margin-bottom:50px;
+    }
+.list{
+   
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    width:95%;
+    gap:30px;
+}
+
+}
+
+.restaurant{
+
+    h2{
+        display: flex;
+        justify-content: center;
+        font-size:30px;
+        padding-bottom:30px;
+    }   
+
+}
+
+
+.restaurant__cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+   
+}
+
+.restaurant__main{
+    margin-bottom: 50px;
+}
+
+.menu__list{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+   
+ 
+    & h3{
+    margin-bottom: 10px;
+    }
+     
+    
+ }
+ 
+ .menu__starter{
+     display: flex;
+     flex-direction: column;
+     width:30%;
+     
+     & p{
+         text-align:start
+         
+     }
+ }
+ .menu__dish{
+     display: flex;
+     flex-direction: column;
+     width:30%;
+     & p{
+         text-align:start
+         
+     }
+ }
+ 
+ .menu-dessert{
+     display: flex;
+     flex-direction: column;
+     width:30%;
+    
+     & p{
+         text-align:start
+         
+     }
+ }
+ 
+ 
+ .menu__choice{
+    
+ }
+
+
+
+
+ 
+.footerlist{
+    display: flex;
+    flex-direction: center;
+    justify-content: space-between;
+    
+    width:95%;
+}
+footer h2{
+    display: flex;
+    justify-content: center;
+    font-size:35px;
+    padding-left:53px;
+}
+
+
+footer p {
+
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+   font-size:18px;
+
+
+}
+
+
+.order button{
+    margin-top: 50px;
+    width:33%;
+ }
+
+}
