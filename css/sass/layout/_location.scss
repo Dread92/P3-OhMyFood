@@ -1,9 +1,12 @@
+@use "../mixins/colors.scss";
+
+
 .location {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    background-color: #F3F3F3;
+    background-color:#F2F2F2;
     text-align: center;
     padding: 1%;
     & h2 {

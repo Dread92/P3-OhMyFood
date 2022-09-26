@@ -16,9 +16,19 @@
 
     position:relative;
 
-   
+    h3{
+        padding-top: 15px;
+
+    }
+    p{
+        padding-bottom: 15px;
+    }
+
     h3,p {
       margin: 8px;
+      padding-left: 10px;
+      
+      margin:0 auto;
       
     }
     i{
@@ -27,6 +37,7 @@
         top:50%;
         transform: translateY(-50%);
         right:5%;
+        font-weight:500;
     }  
  }
 

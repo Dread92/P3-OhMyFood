@@ -32,7 +32,7 @@ header.shadow {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  background-color: #F3F3F3;
+  background-color: #F2F2F2;
   text-align: center;
   padding: 1%;
 }
@@ -141,8 +141,16 @@ header.shadow {
 .cards__text {
   position: relative;
 }
+.cards__text h3 {
+  padding-top: 15px;
+}
+.cards__text p {
+  padding-bottom: 15px;
+}
 .cards__text h3, .cards__text p {
   margin: 8px;
+  padding-left: 10px;
+  margin: 0 auto;
 }
 .cards__text i {
   font-size: 25px;
@@ -150,6 +158,7 @@ header.shadow {
   top: 50%;
   transform: translateY(-50%);
   right: 5%;
+  font-weight: 500;
 }
 
 .cards {
@@ -212,6 +221,7 @@ footer h2 {
 }
 footer p {
   padding: 8px;
+  margin: 0 auto;
 }
 footer i {
   padding-right: 5%;
@@ -342,6 +352,12 @@ header .arrow {
     justify-content: center;
     margin-left: 25%;
     margin-right: 25%;
+    text-align: center;
+    width: 370px;
+    margin: 0 auto;
+  }
+  .functioning .list li {
+    width: 300px;
   }
   .restaurant h2 {
     display: flex;
@@ -356,14 +372,13 @@ header .arrow {
   .footerlist {
     display: flex;
     flex-direction: center;
-    justify-content: space-between;
-    width: 95%;
+    margin: 0 auto;
+    width: 60%;
   }
   footer h2 {
     display: flex;
     justify-content: center;
     font-size: 35px;
-    padding-left: 53px;
   }
   footer p {
     display: flex;
@@ -372,44 +387,12 @@ header .arrow {
     font-size: 18px;
   }
   /* restaurant pages */
-  .menu__list {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-  }
-  .menu__list h3 {
-    margin-bottom: 10px;
-  }
-  .menu__starter {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-  }
-  .menu__starter p {
-    text-align: start;
-  }
-  .menu__dish {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-  }
-  .menu__dish p {
-    text-align: start;
-  }
-  .menu__dessert {
-    display: flex;
-    flex-direction: column;
-    width: 30%;
-  }
-  .menu__dessert p {
-    text-align: start;
-  }
-  .menu__choice {
-    height: 100px;
-    text-align: start;
-  }
   .order button {
     width: 33%;
+  }
+  .menu__list {
+    width: 80%;
+    margin: 0 auto;
   }
 }
 @media screen and (min-width: 993px) {
@@ -470,7 +453,7 @@ header .arrow {
   .menu__starter {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 33%;
   }
   .menu__starter p {
     text-align: start;
@@ -478,7 +461,7 @@ header .arrow {
   .menu__dish {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 33%;
   }
   .menu__dish p {
     text-align: start;
@@ -486,7 +469,7 @@ header .arrow {
   .menu__dessert {
     display: flex;
     flex-direction: column;
-    width: 25%;
+    width: 33%;
   }
   .menu__dessert p {
     text-align: start;
@@ -495,13 +478,13 @@ header .arrow {
     display: flex;
     flex-direction: center;
     justify-content: space-between;
-    width: 95%;
+    margin: 0 auto;
+    width: 60%;
   }
   footer h2 {
     display: flex;
     justify-content: center;
     font-size: 35px;
-    padding-left: 53px;
   }
   footer p {
     display: flex;
