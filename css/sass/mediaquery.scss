@@ -83,9 +83,16 @@ footer p {
     justify-content: center;
     flex-direction: row;
    font-size:18px;
+   padding:4px;
 
 
 }
+
+footer i {
+  margin:0;
+  padding-right:10px;
+}
+
 
 /* restaurant pages */
 
@@ -261,6 +268,11 @@ footer p {
 
 
 }
+
+footer i {
+    margin:0;
+    padding-right:10px;
+  }
 
 
 .order button{

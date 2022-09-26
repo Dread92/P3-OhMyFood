@@ -394,6 +394,11 @@ header .arrow {
     justify-content: center;
     flex-direction: row;
     font-size: 18px;
+    padding: 4px;
+  }
+  footer i {
+    margin: 0;
+    padding-right: 10px;
   }
   /* restaurant pages */
   .order button {
@@ -500,6 +505,10 @@ header .arrow {
     justify-content: center;
     flex-direction: row;
     font-size: 18px;
+  }
+  footer i {
+    margin: 0;
+    padding-right: 10px;
   }
   .order button {
     margin-top: 50px;
