@@ -48,13 +48,22 @@ header{
 }
 }
 
+
+
+
+
 .menu__list{
     h3{
         margin-left:15px;
+        margin-bottom:5px;
+        font-size:24px;
+        
+        
     }
     display: flex;
     flex-direction: column;
     background-color: #F6F6F6;
+    
     .menu__choice{
         display: flex;
         flex-direction: column;
@@ -97,6 +106,16 @@ header{
        
     }
 }
+
+.underline{
+    width: 40px;
+    border: 2px solid #99E2D0;
+    margin-left: 15px;
+    
+}
+
+
+
 
 
 .order{
