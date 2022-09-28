@@ -1,7 +1,7 @@
 @use "../mixins/colors.scss";
 @use "../mixins/hover_scale.scss";
 @use "../mixins/box_shadow.scss";
-
+@use "../mixins/animations.scss";
 body{
     background-color: #F6F6F6;
 }
@@ -63,11 +63,13 @@ header{
     display: flex;
     flex-direction: column;
     background-color: #F6F6F6;
-    
+   
     .menu__choice{
+      
         display: flex;
         flex-direction: column;
-        
+        animation: appear 1s ;
+        animation-fill-mode: backwards;
         background-color: #fff;
         border-radius: 15px;
         margin: 10px;
@@ -99,9 +101,7 @@ header{
 .underline{
     width: 40px;
     border: 0.15rem solid #99E2D0;
-    margin-left: 15px;
-    
-    
+    margin-left: 15px;  
 }
 
 
