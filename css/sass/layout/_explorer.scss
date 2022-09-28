@@ -1,5 +1,6 @@
 @use  "../mixins/box_shadow.scss";
 @use "../mixins/hover_scale.scss";
+@use "../mixins/colors.scss";
 
 .explorer {
     text-align: center;
@@ -26,5 +27,42 @@
     }
     & button:hover {
       @include hover_scale.hover_scale;
+    }
+  }
+
+
+  .spiningloader {
+    position: fixed;
+    background-color: #F3F3F3;
+    opacity: 0.9;
+    z-index: 1;
+    inset: 0 0 0 0; 
+    animation: spinner 150ms forwards;
+    animation-delay: 5s;
+    display: grid;
+    place-items: center;
+    &::after{
+      content:"";
+      height:100px;
+      width:100px;
+      border-top: 5px solid colors.$purple;
+      border-radius:50%;
+      animation : spin 3s ease-in-out;
+      animation-iteration-count: 3;
+    }
+  }
+
+  @keyframes spinner{
+    from{
+      transform: scale(1)
+    }
+    to{
+      transform:scale(0)
+    }
+  }
+
+  @keyframes spin{
+    to{
+      transform: rotate(360deg);
     }
   }
