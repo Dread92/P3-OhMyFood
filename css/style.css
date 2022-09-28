@@ -117,6 +117,8 @@ header.shadow {
   }
   to {
     opacity: 0;
+    z-index: 0;
+    display: none;
   }
 }
 @keyframes spin {
@@ -368,7 +370,8 @@ header .arrow {
 }
 .underline {
   width: 40px;
-  border: 0.15rem solid #99E2D0;
+  border: 2px solid #99E2D0;
+  background: #99E2D0;
   margin-left: 15px;
 }
 
