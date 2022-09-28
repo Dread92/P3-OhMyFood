@@ -32,16 +32,33 @@ header.shadow {
   align-items: center;
   justify-content: center;
   gap: 1rem;
-  background-color: #F2F2F2;
+  background-color: #F6F6F6;
   text-align: center;
   padding: 1%;
-}
-.location h2 {
-  font-weight: 500;
-  font-size: 20px;
+  border: none;
+  height: 50px;
 }
 .location .mapdot {
   font-size: x-large;
+  margin-top: 25px;
+}
+
+.search {
+  font-weight: 600;
+  text-align: center;
+  border: none;
+  background-color: #F6F6F6;
+  font-size: 15px;
+}
+
+.cityplaceholder {
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  background-color: #F6F6F6;
+  position: relative;
+  outline: none;
+  height: 25px;
 }
 
 .explorer {
@@ -49,12 +66,11 @@ header.shadow {
   background-image: linear-gradient(to top, #F3F3F3, white);
 }
 .explorer h2 {
-  margin-top: 10%;
+  padding-top: 25px;
   font-size: 25px;
 }
 .explorer p {
   font-size: 20px;
-  margin-bottom: 10%;
 }
 .explorer button {
   padding: 20px 20px;
@@ -340,8 +356,14 @@ header .arrow {
 
 @media screen and (min-width: 769px) and (max-width: 992px) {
   /*home page*/
+  .cityplaceholder {
+    background-color: #F6F6F6;
+  }
   .location {
-    height: 50px;
+    background-color: #F6F6F6;
+  }
+  .explorer {
+    background-image: linear-gradient(to bottom, #f6f6f6, #f6f6f6);
   }
   .explorer p {
     margin-bottom: 30px;
@@ -417,9 +439,14 @@ header .arrow {
   main {
     max-width: 1400px;
   }
+  .cityplaceholder {
+    background-color: #F6F6F6;
+  }
   .location {
-    padding-top: 50px;
-    height: 25px;
+    background-color: #F6F6F6;
+  }
+  .explorer {
+    background-image: linear-gradient(to bottom, #f6f6f6, #f6f6f6);
   }
   .explorer p {
     margin-bottom: 30px;

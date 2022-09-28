@@ -6,14 +6,38 @@
     align-items: center;
     justify-content: center;
     gap: 1rem;
-    background-color:#F2F2F2;
+    background-color:#F6F6F6;
     text-align: center;
     padding: 1%;
-    & h2 {
-      font-weight: 500;
-      font-size: 20px;
-    }
+    border: none;
+    height: 50px;
+    
+    
+  
     & .mapdot {
       font-size: x-large;
+      margin-top: 25px;
     }
   }
+  
+  .search{
+    font-weight: 600;
+    text-align: center;
+    border:none;
+    background-color: #F6F6F6;
+    font-size: 15px;
+  }
+
+  .cityplaceholder{
+    margin-top: 25px;
+    display: flex;
+    justify-content: center;
+    background-color:#F6F6F6;
+    position: relative;
+    outline: none;
+    height:25px;
+    
+    
+}
+   
+  

@@ -3,14 +3,21 @@
 /*home page*/
 
 
-
+.cityplaceholder{
+    background-color:#F6F6F6;
+}
 .location{
+    background-color:#F6F6F6;
 
-height:50px;
 
 }
+.explorer{
+    background-image: linear-gradient(to bottom, #f6f6f6, #f6f6f6); 
+}
+
 .explorer p {
 margin-bottom: 30px;
+
 
 }
 
@@ -132,11 +139,16 @@ footer i {
         max-width: 1400px;
     }
 
-
+    .cityplaceholder{
+        background-color:#F6F6F6;
+    }
     .location{
-        padding-top: 50px;
-        height:25px;
+      background-color:#F6F6F6;
         
+        }
+
+        .explorer{
+            background-image: linear-gradient(to bottom, #f6f6f6, #f6f6f6); 
         }
         .explorer p {
         margin-bottom: 30px;
@@ -158,6 +170,7 @@ footer i {
         justify-content: center;
         font-size:30px;
         margin-bottom:50px;
+        
     }
 .list{
    
