@@ -44,8 +44,20 @@ header{
     font-size: 30px;
     i{
         font-size:25px;
+        &:hover{
+           
+            color:transparent;
+            background-image: linear-gradient(to top, rgba(147, 86, 220, 1), rgba(225, 121, 218, 1));
+            background-clip: text;
+            -webkit-background-clip: text;
+            opacity :1;
+            transition: all  ease-in-out;
+            font-weight:900;
+            
+        }
     }  
 }
+
 }
 
 

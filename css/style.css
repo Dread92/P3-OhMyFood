@@ -217,12 +217,12 @@ header.shadow {
 }
 .cards__text .animatedheart {
   color: transparent;
-  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(225, 121, 218, 0.9));
+  background-image: linear-gradient(to top, rgb(147, 86, 220), rgb(225, 121, 218));
   background-clip: text;
   -webkit-background-clip: text;
   opacity: 0;
   transition: all ease-in-out;
-  font-weight: 500;
+  font-weight: 900;
 }
 .cards__text:hover .animatedheart {
   opacity: 1;
@@ -345,6 +345,15 @@ header .arrow {
 }
 .restaurant__main h2 i {
   font-size: 25px;
+}
+.restaurant__main h2 i:hover {
+  color: transparent;
+  background-image: linear-gradient(to top, rgb(147, 86, 220), rgb(225, 121, 218));
+  background-clip: text;
+  -webkit-background-clip: text;
+  opacity: 1;
+  transition: all ease-in-out;
+  font-weight: 900;
 }
 
 .menu__list {
