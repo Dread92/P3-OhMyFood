@@ -297,7 +297,7 @@ footer i {
   margin: 0 auto;
 }
 
-@-webkit-keyframes rotate {
+@keyframes rotate {
   0% {
     transform: rotate(-270deg);
     -webkit-transform: rotate(-270deg);
@@ -307,7 +307,7 @@ footer i {
     -webkit-transform: rotate(0);
   }
 }
-@-webkit-keyframes appear {
+@keyframes appear {
   0% {
     opacity: 0;
     transform: translateY(20px);
@@ -319,7 +319,7 @@ footer i {
     -webkit-opacity: 1;
   }
 }
-@-webkit-keyframes spinner {
+@keyframes spinner {
   from {
     opacity: 1;
   }
@@ -329,7 +329,7 @@ footer i {
     display: none;
   }
 }
-@-webkit-keyframes spin {
+@keyframes spin {
   to {
     transform: rotate(360deg);
   }
