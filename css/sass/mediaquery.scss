@@ -103,7 +103,9 @@ footer i {
 
 /* restaurant pages */
 
-
+.menu-page{
+    margin:100px;
+}
 
 .order button{
 
@@ -111,11 +113,7 @@ footer i {
 }
 
 
-.menu__list{
-    width:80%;
-    margin:0 auto;
 
-}
 
 
 }
@@ -193,65 +191,58 @@ footer i {
     }   
 
 }
-
-
 .restaurant__cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-   
-}
+    grid-template-columns: repeat(2, 1fr);}
+
+
 
 .restaurant__main{
     margin-bottom: 50px;
+    h2{
+        font-size:40px;
+        i{
+            font-size:40px;
+        }
+    }
+  
 }
 
-.menu__list{
+
+
+
+
+.menu-page{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-   
- 
-    & h3{
-    margin-bottom: 10px;
-    }
-     
+     place-items: center;
+  
     
  }
+
+
+
+.starter{
+    width:80%;
+    
+   
+}
+.dish{
+    width:80%;
+}
+.dessert{
+    width:80%}
+
+
+
  
- .menu__starter{
-     display: flex;
-     flex-direction: column;
-     width:33%;
-     
-     & p{
-         text-align:start
-         
-     }
- }
- .menu__dish{
-     display: flex;
-     flex-direction: column;
-     width:33%;
-     & p{
-         text-align:start
-         
-     }
- }
- 
- .menu__dessert{
-    display: flex;
-    flex-direction: column;
-    width:33%;
-     & p{
-         text-align:start
-         
-     }
- }
+
  
  
- .menu__choice{
-  
- }
+
+
+
+
 
 
 
@@ -292,5 +283,7 @@ footer i {
     margin-top: 50px;
     width:33%;
  }
+
+
 
 }
