@@ -2,6 +2,7 @@
 @use "../mixins/hover_scale.scss";
 @use "../mixins/box_shadow.scss";
 @use "../mixins/animations.scss";
+@import "../mixins/animations.scss";
 body{
     background-color: colors.$brightgrey;
 }
@@ -146,7 +147,7 @@ header{
         }
         i{
             animation-name: rotate;
-            animation-duration: 500ms;
+            animation-duration: 0.5s;
         }
             }
            

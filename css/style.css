@@ -334,6 +334,43 @@ footer i {
     transform: rotate(360deg);
   }
 }
+@keyframes rotate {
+  0% {
+    transform: rotate(-270deg);
+    -webkit-transform: rotate(-270deg);
+  }
+  100% {
+    transform: rotate(0);
+    -webkit-transform: rotate(0);
+  }
+}
+@keyframes appear {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+    -webkit-opacity: 0;
+    -webkit-transform: translateY(20px);
+  }
+  100% {
+    opacity: 1;
+    -webkit-opacity: 1;
+  }
+}
+@keyframes spinner {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    z-index: -1;
+    display: none;
+  }
+}
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
 body {
   background-color: #F6F6F6;
 }
@@ -460,7 +497,7 @@ header .arrow {
 }
 .menu-page .menu-description:hover i {
   animation-name: rotate;
-  animation-duration: 500ms;
+  animation-duration: 0.5s;
 }
 .menu-page .menu-description__content {
   white-space: nowrap;
