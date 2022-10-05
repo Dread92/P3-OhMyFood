@@ -3,6 +3,8 @@
 @use "../mixins/box_shadow.scss";
 @use "../mixins/animations.scss";
 @import "../mixins/animations.scss";
+
+
 body{
     background-color: colors.$brightgrey;
 }
@@ -147,7 +149,7 @@ header{
         }
         i{
             animation-name: rotate;
-            animation-duration: 0.5s;
+            animation-duration: 800ms;
         }
             }
            

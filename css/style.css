@@ -111,21 +111,6 @@ header.shadow {
   animation-iteration-count: 3;
 }
 
-@keyframes spinner {
-  from {
-    opacity: 1;
-  }
-  to {
-    opacity: 0;
-    z-index: -1;
-    display: none;
-  }
-}
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
-}
 .functioning h2 {
   margin-left: 24px;
 }
@@ -497,7 +482,7 @@ header .arrow {
 }
 .menu-page .menu-description:hover i {
   animation-name: rotate;
-  animation-duration: 0.5s;
+  animation-duration: 800ms;
 }
 .menu-page .menu-description__content {
   white-space: nowrap;
