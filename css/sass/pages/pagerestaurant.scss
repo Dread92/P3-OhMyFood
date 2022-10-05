@@ -122,15 +122,16 @@ header{
             padding:18px;
             display: flex;
             align-items: flex-end;
+            
         }
         .menu__checkmark{
             background-color: colors.$lightgreen;
-            margin-right:-3rem;
-            width: 3rem ;
+            margin-right:-60px;
+            width: 60px ;
            
             display: grid;
             place-items: center;
-            transition: 0.5s;
+            transition: 500ms;
         }
         i{
             display:grid;
@@ -146,6 +147,7 @@ header{
         &:hover {
         .menu__checkmark{
             margin-right:0;
+            
         }
         i{
             animation-name: rotate;

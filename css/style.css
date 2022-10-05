@@ -31,16 +31,17 @@ header.shadow {
   display: flex;
   align-items: center;
   justify-content: center;
-  gap: 1rem;
+  gap: 10px;
   background-color: #F6F6F6;
   text-align: center;
-  padding: 1%;
+  padding: 0;
   border: none;
   height: 50px;
 }
 .location .mapdot {
   font-size: x-large;
   margin-top: 25px;
+  align-items: center;
 }
 
 .search {
@@ -48,7 +49,7 @@ header.shadow {
   text-align: center;
   border: none;
   background-color: #F6F6F6;
-  font-size: 15px;
+  font-size: 19px;
 }
 
 .cityplaceholder {
@@ -461,11 +462,11 @@ header .arrow {
 }
 .menu-page .menu-description .menu__checkmark {
   background-color: #99E2D0;
-  margin-right: -3rem;
-  width: 3rem;
+  margin-right: -60px;
+  width: 60px;
   display: grid;
   place-items: center;
-  transition: 0.5s;
+  transition: 500ms;
 }
 .menu-page .menu-description i {
   display: grid;
