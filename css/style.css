@@ -618,7 +618,8 @@ header .arrow {
   .menu-page {
     display: flex;
     flex-direction: row;
-    max-width: 1600px;
+    justify-content: center;
+    max-width: 1500px;
   }
   .starter {
     width: 30%;
