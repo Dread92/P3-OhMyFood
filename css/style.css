@@ -384,15 +384,15 @@ header .arrow {
   margin-top: 20px;
 }
 .menu-page .dishtype .delay-1 {
-  animation: appear 2s;
+  animation: appear 3s;
   animation-delay: 100ms;
 }
 .menu-page .dishtype .delay-2 {
-  animation: appear 2s;
+  animation: appear 3s;
   animation-delay: 150ms;
 }
 .menu-page .dishtype .delay-3 {
-  animation: appear 2s;
+  animation: appear 3s;
   animation-delay: 200ms;
 }
 .menu-page .dishtype h4, .menu-page .dishtype p {
