@@ -215,7 +215,7 @@ footer i {
 .menu-page{
     display: flex;
     flex-direction: row;
-     place-items: center;
+   max-width: 1600px;
   
     
  }
@@ -223,15 +223,15 @@ footer i {
 
 
 .starter{
-    width:80%;
+    width:30%;
     
    
 }
 .dish{
-    width:80%;
+    width:30%;
 }
 .dessert{
-    width:80%}
+    width:30%}
 
 
 

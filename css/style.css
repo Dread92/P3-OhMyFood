@@ -369,7 +369,7 @@ header .arrow {
 
 .menu-page {
   background-color: #F6F6F6;
-  padding: 0 2rem;
+  padding: 0 1rem;
   gap: 2rem;
   display: flex;
   flex-direction: column;
@@ -409,7 +409,6 @@ header .arrow {
   border-radius: 1rem;
   display: flex;
   box-shadow: 1px 8px 7px 0px #C5C5C5;
-  text-overflow: ellipsis;
 }
 .menu-page .menu-description .price {
   margin-left: auto;
@@ -420,8 +419,8 @@ header .arrow {
 }
 .menu-page .menu-description .menu__checkmark {
   background-color: #99E2D0;
-  margin-right: -4rem;
-  width: 4rem;
+  margin-right: -3rem;
+  width: 3rem;
   display: grid;
   place-items: center;
   transition: 0.5s;
@@ -619,16 +618,16 @@ header .arrow {
   .menu-page {
     display: flex;
     flex-direction: row;
-    place-items: center;
+    max-width: 1600px;
   }
   .starter {
-    width: 80%;
+    width: 30%;
   }
   .dish {
-    width: 80%;
+    width: 30%;
   }
   .dessert {
-    width: 80%;
+    width: 30%;
   }
   .footerlist {
     display: flex;

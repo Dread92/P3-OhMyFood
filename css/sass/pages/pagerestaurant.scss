@@ -3,8 +3,11 @@
 @use "../mixins/box_shadow.scss";
 @use "../mixins/animations.scss";
 body{
-    background-color: #F6F6F6;
+    background-color: colors.$brightgrey;
 }
+
+
+
 
 header{
     display: flex;
@@ -63,7 +66,7 @@ header{
 
 .menu-page{
     background-color:colors.$brightgrey;
-    padding: 0 2rem;
+    padding: 0 1rem;
     gap:2rem;
     display: flex;
     flex-direction: column;
@@ -107,9 +110,8 @@ header{
         overflow:hidden;
         border-radius:1rem;
         display:flex;
-        
         @include box_shadow.box-shadow ;
-        text-overflow: ellipsis;
+        
         
         .price{
             margin-left: auto;
@@ -120,8 +122,8 @@ header{
         }
         .menu__checkmark{
             background-color: colors.$lightgreen;
-            margin-right:-4rem;
-            width: 4rem ;
+            margin-right:-3rem;
+            width: 3rem ;
            
             display: grid;
             place-items: center;
