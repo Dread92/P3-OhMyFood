@@ -701,6 +701,14 @@ header .arrow {
     width: 33%;
   }
 }
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .restaurant__main h2 {
+    font-size: 24px;
+  }
+  .restaurant__main h2 i {
+    font-size: 28px;
+  }
+}
 /*# sourceMappingURL=style.css.map */
 
 /*# sourceMappingURL=style.css.map */

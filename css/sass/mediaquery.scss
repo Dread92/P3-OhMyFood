@@ -288,3 +288,15 @@ footer i {
 
 
 }
+
+@media screen and (min-width:300px) and (max-width: 400px){
+
+    .restaurant__main h2{
+        font-size:24px;
+       i{
+        font-size: 28px;
+       }
+    }
+
+
+}
