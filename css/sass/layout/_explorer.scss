@@ -20,7 +20,7 @@
       font-weight: 300;
       color: white;
       font-size: 20px;
-      background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(225, 121, 218, 0.9));
+      background-image: linear-gradient(to top, colors.$purple, rgba(225, 121, 218, 0.9));
       transition: 200ms;
       margin-bottom: 10%;
       @include box_shadow.box_shadow;

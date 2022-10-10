@@ -80,7 +80,7 @@ header.shadow {
   font-weight: 300;
   color: white;
   font-size: 20px;
-  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(225, 121, 218, 0.9));
+  background-image: linear-gradient(to top, #9356DC, rgba(225, 121, 218, 0.9));
   transition: 200ms;
   margin-bottom: 10%;
   box-shadow: 1px 8px 7px 0px #C5C5C5;
@@ -106,7 +106,7 @@ header.shadow {
   content: "";
   height: 100px;
   width: 100px;
-  border-top: 8px solid rgb(147, 17, 186);
+  border-top: 8px solid #9356DC;
   border-radius: 50%;
   animation: spin 3s ease-in-out;
   animation-iteration-count: 2;
@@ -140,7 +140,7 @@ header.shadow {
   opacity: 0.8;
 }
 .functioning ol li:hover i {
-  color: rgb(147, 17, 186);
+  color: #9356DC;
 }
 .functioning ol li i {
   margin-right: 25px;
@@ -150,11 +150,11 @@ header.shadow {
   display: inline-block;
 }
 .functioning ol li i:hover {
-  color: rgb(147, 17, 186);
+  color: #9356DC;
 }
 .functioning ol li span {
   color: white;
-  background-color: rgb(147, 17, 186);
+  background-color: #9356DC;
   display: grid;
   place-items: center;
   width: 25px;
@@ -403,7 +403,7 @@ header .arrow {
 }
 .restaurant__main h2 i:hover {
   color: transparent;
-  background-image: linear-gradient(to top, rgb(147, 86, 220), rgb(225, 121, 218));
+  background-image: linear-gradient(to top, #9356DC, rgb(225, 121, 218));
   background-clip: text;
   -webkit-background-clip: text;
   opacity: 1;
@@ -520,7 +520,7 @@ header .arrow {
   font-weight: 300;
   color: white;
   font-size: 20px;
-  background-image: linear-gradient(to top, rgba(147, 86, 220, 0.9), rgba(225, 121, 218, 0.9));
+  background-image: linear-gradient(to top, #9356DC, rgba(225, 121, 218, 0.9));
   transition: 200ms;
   margin-bottom: 10%;
   box-shadow: 1px 8px 7px 0px #C5C5C5;
