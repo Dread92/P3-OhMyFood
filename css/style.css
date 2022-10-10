@@ -383,6 +383,11 @@ header .arrow {
   margin-bottom: -18px;
 }
 
+.img_restaurant_crop {
+  height: 260px;
+  width: 100%;
+}
+
 .restaurant__main h2 {
   font-family: "shrikhand", "sans-serif";
   position: relative;
@@ -606,10 +611,18 @@ header .arrow {
   .order button {
     width: 33%;
   }
+  .img_restaurant_crop {
+    min-height: 500px;
+    width: 100%;
+  }
 }
 @media screen and (min-width: 993px) {
   .img_restaurant {
     max-height: 500px;
+    width: 100%;
+  }
+  .img_restaurant_crop {
+    min-height: 500px;
     width: 100%;
   }
   main {

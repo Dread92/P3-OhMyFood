@@ -112,7 +112,10 @@ footer i {
    width:33%;
 }
 
-
+.img_restaurant_crop{
+    min-height: 500px;
+  width: 100%;
+}
 
 
 
@@ -130,6 +133,10 @@ footer i {
 @media screen and (min-width:993px){
     .img_restaurant{
       max-height: 500px;
+      width: 100%;
+    }
+    .img_restaurant_crop{
+        min-height: 500px;
       width: 100%;
     }
 
