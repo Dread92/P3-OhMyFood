@@ -106,10 +106,10 @@ header.shadow {
   content: "";
   height: 100px;
   width: 100px;
-  border-top: 5px solid rgb(147, 17, 186);
+  border-top: 8px solid rgb(147, 17, 186);
   border-radius: 50%;
   animation: spin 3s ease-in-out;
-  animation-iteration-count: 3;
+  animation-iteration-count: 2;
 }
 
 .functioning h2 {
@@ -212,6 +212,7 @@ header.shadow {
 }
 .cards__text:hover .animatedheart {
   opacity: 1;
+  transition-duration: 300ms;
 }
 
 .cards {
@@ -317,7 +318,7 @@ footer i {
 }
 @keyframes spin {
   to {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 }
 @keyframes rotate {
@@ -354,7 +355,7 @@ footer i {
 }
 @keyframes spin {
   to {
-    transform: rotate(360deg);
+    transform: rotate(720deg);
   }
 }
 body {
@@ -408,6 +409,7 @@ header .arrow {
   opacity: 1;
   transition: all ease-in-out;
   font-weight: 900;
+  transition-duration: 500ms;
 }
 
 .menu-page {
@@ -427,16 +429,20 @@ header .arrow {
   margin-top: 20px;
 }
 .menu-page .dishtype .delay-1 {
-  animation: appear 3s;
-  animation-delay: 100ms;
+  animation: appear 1s;
+  animation-delay: 200ms;
 }
 .menu-page .dishtype .delay-2 {
-  animation: appear 3s;
-  animation-delay: 150ms;
+  animation: appear 2s;
+  animation-delay: 300ms;
 }
 .menu-page .dishtype .delay-3 {
   animation: appear 3s;
-  animation-delay: 200ms;
+  animation-delay: 400ms;
+}
+.menu-page .dishtype .delay-4 {
+  animation: appear 4s;
+  animation-delay: 500ms;
 }
 .menu-page .dishtype h4, .menu-page .dishtype p {
   padding: 0;

@@ -1,6 +1,6 @@
-@use  "../mixins/box_shadow.scss";
-@use "../mixins/hover_scale.scss";
-@use "../mixins/colors.scss";
+@use  "../mixins/_box_shadow.scss";
+@use "../mixins/_hover_scale.scss";
+@use "../mixins/_colors.scss";
 
 .explorer {
     text-align: center;
@@ -45,10 +45,10 @@
       content:"";
       height:100px;
       width:100px;
-      border-top: 5px solid colors.$purple;
+      border-top: 8px solid colors.$purple;
       border-radius:50%;
       animation : spin 3s ease-in-out;
-      animation-iteration-count: 3;
+      animation-iteration-count: 2;
     }
   }
 

@@ -1,5 +1,5 @@
-@use "../mixins/homecard.scss";
-@use "../mixins/colors.scss";
+@use "../mixins/_homecard.scss";
+@use "../mixins/_colors.scss";
 
 .restaurant{
     background-color: #F6F6F6;
@@ -56,7 +56,7 @@
     }
     &:hover .animatedheart{
        opacity: 1;
-       
+       transition-duration: 300ms;
       
     }
  }

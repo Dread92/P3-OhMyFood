@@ -1,8 +1,8 @@
-@use "../mixins/colors.scss";
-@use "../mixins/hover_scale.scss";
-@use "../mixins/box_shadow.scss";
-@use "../mixins/animations.scss";
-@import "../mixins/animations.scss";
+@use "../mixins/_colors.scss";
+@use "../mixins/_hover_scale.scss";
+@use "../mixins/_box_shadow.scss";
+@use "../mixins/_animations.scss";
+@import "../mixins/_animations.scss";
 
 
 body{
@@ -60,6 +60,7 @@ header{
             opacity :1;
             transition: all  ease-in-out;
             font-weight:900;
+            transition-duration: 500ms;
             
         }
     }  
@@ -86,16 +87,20 @@ header{
      margin-top:20px;
     
      .delay-1{
-        animation:appear 3s;
-        animation-delay: 100ms;
+        animation:appear 1s;
+        animation-delay: 200ms;
      }
      .delay-2{
-        animation:appear 3s;
-        animation-delay:150ms;
+        animation:appear 2s;
+        animation-delay:300ms;
      }
      .delay-3{
         animation:appear 3s;
-        animation-delay: 200ms;
+        animation-delay: 400ms;
+     }
+     .delay-4{
+        animation:appear 4s;
+        animation-delay: 500ms;
      }
 
         h4,p{
