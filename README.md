@@ -33,3 +33,4 @@ Contraintes du projet :
 
 
 Lien vers le deployment Github Pages : https://dread92.github.io/Projet-3-OhMyFood/
+Lien vers mon profil Github: https://github.com/Dread92
