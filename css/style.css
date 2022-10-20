@@ -484,7 +484,7 @@ header .arrow {
   place-items: center;
   font-size: 20px;
   background: white;
-  aspect-ratio: 1;
+  aspect-ratio: 1/1;
   width: 2rem;
   border-radius: 1rem;
   color: #99E2D0;
@@ -584,7 +584,6 @@ header .arrow {
   }
   .footerlist {
     display: flex;
-    flex-direction: center;
     margin: 0 auto;
     width: 70%;
   }
@@ -695,7 +694,6 @@ header .arrow {
   }
   .footerlist {
     display: flex;
-    flex-direction: center;
     justify-content: space-between;
     margin: 0 auto;
     width: 70%;
