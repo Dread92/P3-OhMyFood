@@ -6,31 +6,32 @@ Ohmyfood est le projet 3 du parcours Développeur Web Jr de l'organisme OpenClas
 
 
 
-L'objectif était de dynamiser plusieurs pages en HTML/CSS avec différentes animations. 
+The objective was to make several HTML/CSS pages more dynamic with various animations.
 
-Contraintes du projet :
+Project Constraints:
 
-- Le site doit être codé en HTML/CSS sans utiliser aucun framework. L'utilisation de SASS est un plus.
+-The site must be coded in HTML/CSS without using any frameworks. The use of SASS is a plus.
 
-- Les couleurs du site sont #9356DC,  #FF79DA et #99E2D0  
+-The site's colors are #9356DC, #FF79DA, and #99E2D0.
 
-- Le site doit s'adapter en responsive aux formats desktop, tablette, et mobile via les mediaqueries. Les breakpoints choisis sont : 992px pour desktop à tablette, 768px pour tablette à mobile.
+-The site must be responsive and adapt to desktop, tablet, and mobile formats using media queries. The chosen breakpoints are 992px for desktop to tablet and 768px for tablet to mobile.
 
-- Le site se compose d'une page d'accueil, et de 4 pages de restaurants.
+-The site consists of a homepage and four restaurant pages.
 
-- La police du site utilisée est Shrikhand  pour le logo et titre, Roboto pour le reste.( google font )
+-The site uses Shrikhand for the logo and title, and Roboto for the rest of the text (Google Fonts).
 
-- Le site doit être codé avec une approche mobile first. 
+-The site should be coded with a mobile-first approach.
 
-- Le design et les choix esthétiques des versions tablettes et desktop sont à l'initiative du développeur. 
+-The design and aesthetic choices for tablet and desktop versions are up to the developer's discretion.
 
-- Plusieurs animations sont demandées sur le site ; un loading spinner, un coeur qui se remplit au survol, des " checkmarks " à côté des cartouches des menus, et enfin une apparition progressive des cartouches lors du chargement d'une page restaurant. 
+-Several animations are requested on the site: a loading spinner, a heart that fills on hover, "checkmarks" next to menu items, and a gradual appearance of menu items during the loading of a restaurant page.
 
-- Le site doit être compatible avec différents navigateurs ( Chrome, Firefox, Opera etc .. )
+-The site must be compatible with different browsers (Chrome, Firefox, Opera, etc.).
 
-- Enfin, le code doit être valide au W3C pour le HTML comme pour le CSS.
+Finally, the code must be W3C compliant for both HTML and CSS.
 
-
+Link to the GitHub Pages deployment: https://dread92.github.io/Projet-3-OhMyFood/
+Link to my GitHub profile: https://github.com/Dread92
 
 Lien vers le deployment Github Pages : https://dread92.github.io/Projet-3-OhMyFood/
 Lien vers mon profil Github: https://github.com/Dread92
